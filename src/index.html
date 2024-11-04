@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Clone :Web Player </title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.svg " sizes="512x512">
+    <!-- ICONS -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Utility classes -->
+    <link rel="stylesheet" href="utility.css">
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="container flex bg-black">
+<!-- left -->
+    <div class="left border bg-black">
+        <!-- left part one -->
+        <div class="home bg-grey rounded m-1 p-1"> 
+            <div class="logo hover"><img class="hover-invert invert" src="/assets/logo.svg" alt=""></div>
+            <ul>
+                <li class="hover  text-grey"><img class="invert hover-invert" src="/assets/home.svg" alt="home">Home</li>
+                <li class="hover text-grey"><img class="invert hover-invert" src="/assets/search.svg" alt="search">Search</li>
+            </ul>
+        </div>
+        <!-- left part second -->
+        <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading hover "> 
+                    <img class="invert hover-invert " src="/assets/playlist.svg" alt="playlist ">
+                    <h2 class="text-grey hover" >Your library</h2>
+                </div> 
+                <div class="songlist">
+                 <ul>
+                     <!-- ELEMENTs or songs using  js -->
+                    
+                 </ul>
+                </div>
+                <!-- footers -->
+                <div class="footer flex justify-center coloum">
+                    <!-- part 1 footer -->
+            <div class="flex justify-between">
+                <div>
+                    <a class="hover-underline text-grey" href="https://www.spotify.com/in-en/legal/">Legal</a>
+                </div>
+                <div>
+                    <a class="hover-underline text-grey" href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy Center</a>
+                </div>
+                <div>
+                    <a class="hover-underline text-grey" href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                </div>
+            </div>
+              <!-- part 2 footer -->
+            <div class="flex justify-between">
+                    <div>
+                        <a class="hover-underline text-grey" href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                    </div>
+                    <div>
+                        <a class="hover-underline text-grey" href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                    </div>
+                    <div>   <a class="hover-underline text-grey" href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>  </div>
+                    </div>
+        </div>
+        </div>
+       
+    </div>
+    <!-- right -->
+    <div class="right bg-right rounded ">
+    <div class="header flex justify-between items-center rounded">
+            <div class="nav">
+                <i class="bold font-3 text-grey ri-arrow-left-wide-fill"></i>
+                <i class="bold font-3 text-grey ri-arrow-right-wide-fill"></i>
+            </div>
+            <div class="buttons">
+                <button class="signup font-1 btn rounded transiton">Sign up</button>
+                <button class="login font-1 btn rounded transiton">Log in</button>
+            </div>
+        </div>
+       <div class="spotify-playlist p1-2">
+        <h1>Spotify Playlist</h1>
+        <div class="cardContainer flex  p-1 ">
+            <div class="card p-1 rounded bg-card-color">
+                <!-- play button -->
+                <div class="play  flex justify-center items-center">
+                    <i class="ri-play-large-fill"></i>
+                </div>
+                <img  class="rounded" loading="lazy" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"  alt="">
+                <h3>Happy Hits</h3>
+                <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div class="card p-1 rounded bg-card-color">
+                <!-- play button -->
+                <div class="play  flex justify-center items-center">
+                    <i class="ri-play-large-fill"></i>
+                </div>
+                <img  class="rounded" loading="lazy" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"  alt="">
+                <h3>Happy Hits</h3>
+                <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div class="card p-1 rounded bg-card-color">
+                <!-- play button -->
+                <div class="play  flex justify-center items-center">
+                    <i class="ri-play-large-fill"></i>
+                </div>
+                <img  class="rounded" loading="lazy" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"  alt="">
+                <h3>Happy Hits</h3>
+                <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div class="card p-1 rounded bg-card-color">
+                <!-- play button -->
+                <div class="play  flex justify-center items-center">
+                    <i class="ri-play-large-fill"></i>
+                </div>
+                <img  class="rounded" loading="lazy" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"  alt="">
+                <h3>Happy Hits</h3>
+                <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div class="card p-1 rounded bg-card-color">
+                <!-- play button -->
+                <div class="play  flex justify-center items-center">
+                    <i class="ri-play-large-fill"></i>
+                </div>
+                <img  class="rounded" loading="lazy" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"  alt="">
+                <h3>Happy Hits</h3>
+                <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div class="card p-1 rounded bg-card-color">
+                <!-- play button -->
+                <div class="play  flex justify-center items-center">
+                    <i class="ri-play-large-fill"></i>
+                </div>
+                <img  class="rounded" loading="lazy" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"  alt="">
+                <h3>Happy Hits</h3>
+                <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div class="card p-1 rounded bg-card-color">
+                <!-- play button -->
+                <div class="play  flex justify-center items-center">
+                    <i class="ri-play-large-fill"></i>
+                </div>
+                <img  class="rounded" loading="lazy" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"  alt="">
+                <h3>Happy Hits</h3>
+                <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+    
+        </div>
+       </div>
+      
+       <div class="playbar p-1 flex justify-between items-center">
+        <div class="song-Info ">  </div>
+        <div class="songbtn flex items-center justify-center">
+            <!-- previous button -->
+            <i class="font-3  ri-skip-left-fill"></i>
+             <!-- play button -->
+            <i class="font-3  ri-play-circle-line"></i>
+             <!-- next button -->
+             <i class="font-3  ri-skip-right-fill"></i>
+        </div>
+        <div class="song-Time"></div>
+       </div>
+</div> 
+
+</main>
+    
+<script src="script.js"></script>
+</body>
+</html>
